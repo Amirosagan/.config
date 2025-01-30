@@ -1,0 +1,83 @@
+let mapleader = ' '
+
+" redo 
+
+noremap U <C-R>
+
+xnoremap p P
+
+set clipboard^=unnamed
+
+set matchpairs+=<:>
+
+set ideajoin
+
+noremap <leader>cc :edit ~/.ideavimrc<cr>
+
+noremap <leader>cs :source ~/.ideavimrc<cr>
+
+set hlsearch
+
+set ignorecase
+
+set smartcase
+
+map w [w
+
+map e ]w
+
+map b [b
+
+map E ]b
+
+map <C-l> <C-w>l
+
+map <C-h> <C-w>h
+
+map <C-j> <C-w>j
+
+map <C-k> <C-w>k
+
+map <leader>sv <Action>(SplitVertically)
+
+map <leader>sh <Action>(SplitHorizontally)
+
+map <leader>sx <Action>(Unsplit)
+
+map <leader>fc <Action>(GotoClass)
+
+map <leader>ff <Action>(GotoFile)
+
+map <leader>fa <Action>(GotoAction)
+
+map <leader>gd <Action>(GotoDeclaration)
+
+map <leader>gt <Action>(GotoTypeDefinition)
+
+map <leader>gi <Action>(GotoImplementation)
+
+map <leader>ug <Action>(FindUsages)
+
+map <leader>us <Action>(ShowUsages)
+
+map <S-k> <Action>(ShowHoverInfo)
+
+map <leader>oo <Action>(FileStructurePopup)
+
+map <S-f> <Action>(Find)
+
+map <S-r> <Action>(Replace)
+
+map <leader>cs <Action>(RenameElement)
+
+map <leader>rr <Action>(Refactorings.QuickListPopupAction)
+
+map <leader>ee <Action>(ActivateProjectToolWindow)
+
+map <leader>ex <Action>(HideActiveWindow)
+
+map <leader>aa <Action>(ShowIntentionActions)
+
+map <S-l> <Action>(Back)
+
+map <S-h> <Action>(Forward)
